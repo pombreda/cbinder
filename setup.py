@@ -21,7 +21,7 @@ setup(name = "cbinder",
     requires = ["srcgen>=1.1"],
     install_requires = ["srcgen>=1.1"],
     keywords = "c, ctypes, bindings, generator",
-    long_description = open(os.path.join(HERE, "README.rst"), "r").read(),
+    long_description = open(os.path.join(HERE, "README.md"), "r").read(),
     classifiers = [
         "Programming Language :: Python :: 2.7",
         "Topic :: Software Development :: Build Tools",
